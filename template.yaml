@@ -19,7 +19,7 @@ Resources:
     Properties:
       CodeUri: hello-world/
       Handler: app.lambdaHandler
-      Runtime: nodejs18.x
+      Runtime: nodejs20.x
       AutoPublishAlias: live
       DeploymentPreference:
         Type: Canary10Percent5Minutes # or Canary10Percent30Minutes, Linear10PercentEvery10Minutes, Linear10PercentEvery1Minute, etc.
